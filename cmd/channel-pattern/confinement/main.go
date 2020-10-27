@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+// ownership
 func main() {
 	chanOwner := func() <-chan int {
 		results := make(chan int, 5)
